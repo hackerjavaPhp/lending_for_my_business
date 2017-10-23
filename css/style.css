@@ -1,0 +1,163 @@
+/*download fonts*/
+ @import url(http://allfont.ru/allfont.css?fonts=quicksand-bold);
+
+/*default options*/
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand Bold', arial;
+}
+
+.container
+{
+	max-width: 1152px;
+	margin: 0 auto;
+}
+
+/*float*/
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+/*text align*/
+.t_center{text-align: center;}
+.t_left{text-align: left;}
+.t_right{text-align: right;}
+
+
+/* color text */
+.white_t{color: white;}
+
+
+/* text-uppercase*/
+.upper{text-transform: uppercase;}
+
+
+/*margin*/
+
+.mr_l_34
+{
+	margin-left: 34px;
+}
+
+/*--------style---------*/
+
+/*nav*/
+header
+{
+	background: url(../img/bg_header.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+nav{padding-top: 42px;}
+
+.header_menu li
+{
+	display: inline-block;
+	margin-right: 52px;
+}
+
+.header_menu li:last-child{margin-right: 0px;}
+.header_menu a{text-decoration: none;}
+
+/*headers*/
+header h1
+{
+	font-size: 60px;
+	margin-top: 226px;
+}
+
+header p
+{
+	margin-top: 26px;
+	font-size: 20px; 
+}
+
+.line_top
+{
+	margin-top: 279px;
+	padding-bottom: 45px;
+}
+.line_top img{display: inline-block;}
+
+
+/*block pay product*/
+/*label options*/
+.menu_selection{padding-bottom: 131px;}
+.menu_selection label{margin-right: 36px;} 
+.menu_selection label:last-child{margin-right: 0;}
+/*checkbox options*/
+.menu_selection input{margin-right: 21px;}
+
+.menu_selection button
+{
+	width: 205px;
+	height: 53px;
+	background-color: #aa9b77;
+	border: none;
+	font-size: 14px;
+	margin-right: 32px;
+}
+/*products block*/
+
+.products{position: relative;}
+
+.name_block
+{
+	display: block;
+	color:#424242;
+	margin-bottom: 98px;
+}
+.name_block:after
+{
+	content: '';
+	position: absolute;
+	width: 1000px;
+	height: 3px;
+	background-color: #ccc;
+	right: 32px;
+	top:7px;
+}
+
+/* product */
+
+.def_product
+{
+	width: 272px;
+	height: 328px;
+	padding:26px 17px;
+	border: 6px solid red;
+	margin-right: 67px;
+}
+
+.def_product:nth-child(4){margin-right: 0;}
+.def_product:hover{border-color:#ccc;}
+
+/*choice*/
+
+.choice
+{
+	position: relative;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	color:#424242;
+	cursor: pointer;
+	width: 57px;
+
+	background-image: url('../img/line_select.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+
+	/*for WebKit*/
+	 -webkit-appearance: none;
+	 /* for FF */
+	  -moz-appearance: none;
+	  text-indent: 0.01px; 
+	  text-overflow: '';
+	  /* for IE */
+	  -ms-appearance: none;
+	  appearance: none!important;
+}
