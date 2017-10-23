@@ -126,14 +126,17 @@ header p
 .def_product
 {
 	width: 272px;
-	height: 328px;
 	padding:26px 17px;
-	border: 6px solid red;
+	border: 6px solid #ccc;
 	margin-right: 67px;
 }
 
 .def_product:nth-child(4){margin-right: 0;}
-.def_product:hover{border-color:#ccc;}
+.def_product:hover
+{
+	border-color:#aa9b77;
+	transition: border 1s;
+}
 
 /*choice*/
 
@@ -160,4 +163,27 @@ header p
 	  /* for IE */
 	  -ms-appearance: none;
 	  appearance: none!important;
+}
+
+.product_photo
+{
+	height: 289px;
+	display: flex;
+}
+
+.product_photo img
+{
+	display: inline-block;
+	margin:auto;
+}
+
+.name_product{
+	font-size: 18px;
+	color:#aa9b77;
+}
+
+.price_product
+{
+	font-size: 22px;
+	color:#424242;
 }
