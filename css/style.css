@@ -183,6 +183,42 @@ header p
 	margin-top: 130px;
 }
 
+.choice_products ,
+.choice_products_second 
+{
+	display: inline-block;
+	position: absolute;
+}
+
+.choice_products
+{
+	right: 24px;
+	top: 55px;
+}
+
+.choice_products_second
+{
+	left: 35px;
+	top: 55px;
+}
+
+.choice_products span 
+{
+	display: block;
+	letter-spacing: 3px;
+	color: #aa9b77;
+}
+
+.choice_products_second span
+{
+	display: block;
+	letter-spacing: 3px;
+	color: #aa9b77;
+	position: relative;
+	left: 3px;
+}
+
+
 .name_block , 
 .name_block_second
 {
@@ -220,7 +256,7 @@ header p
 {
 	width: 272px;
 	padding: 26px 17px;
-	border: 6px solid #ccc /*rgba(255,255,255,.0)*/;
+	border: 6px solid rgba(255,255,255,.0);
 	margin-right: 67px;
 	transition: border-color 1s;
 }
